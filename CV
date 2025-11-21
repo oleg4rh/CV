@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Resume - Oleh Peretiatko</title>
+</head>
+<body>
+<div class="main">
+
+    <!-- Main content -->
+    <div class="main-content">
+
+        <!-- About -->
+        <div class="about">
+            <h2 class="about-position">Junior Developer / Technology Graduate</h2>
+            <h1 class="about-name">Oleh Peretiatko</h1>
+            <p class="about-description">
+                Motivated and detail-oriented Computer Science graduate from Lviv Polytechnic National University. 
+                I have strong analytical and communication skills developed through one year of CRM management and client support experience, 
+                and one year in the service industry. Eager to contribute to innovative technology projects and grow within an international team such as Barclays Prague. 
+            </p>
+        </div>
+
+        <!-- Work Experience -->
+        <div class="work">
+            <h3 class="title">Work Experience</h3>
+
+            <div>
+                <h4 class="work-position">CRM & Client Support Specialist <span class="organization">Freelance / Private Company</span></h4>
+                <p class="period">2023 – 2024 <span class="line">|</span> Ukraine</p>
+                <ul class="work-list">
+                    <li class="work-list-item">Maintained and updated client information in CRM systems (HubSpot / Bitrix24).</li>
+                    <li class="work-list-item">Provided communication support for clients via chat and email.</li>
+                    <li class="work-list-item">Automated parts of data entry processes and improved data accuracy.</li>
+                    <li class="work-list-item">Collaborated with technical teams to ensure seamless client onboarding and support.</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="work-position">Waiter / Customer Service <span class="organization">Restaurant Industry</span></h4>
+                <p class="period">2022 – 2023 <span class="line">|</span> Ukraine</p>
+                <ul class="work-list">
+                    <li class="work-list-item">Delivered excellent customer service and maintained strong communication with diverse clients.</li>
+                    <li class="work-list-item">Worked effectively in high-pressure environments and team settings.</li>
+                    <li class="work-list-item">Enhanced time management and multitasking skills.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Education -->
+        <div class="education">
+            <h3 class="title">Education</h3>
+            <h4 class="education-position">Lviv Polytechnic National University</h4>
+            <h4 class="word">Bachelor’s Degree in Computer Science</h4>
+            <p class="period">September 2020 – June 2024 <span class="line">|</span> Ukraine</p>
+        </div>
+
+        <!-- Courses -->
+        <div class="education">
+            <h3 class="title">Courses</h3>
+            <h4 class="education-position">GoIT Academy</h4>
+            <h4 class="word">Front-End Development (Beginner Level)</h4>
+            <p class="period">2024 <span class="line">|</span> Online</p>
+        </div>
+    </div>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <img src="img/photo.jpg" alt="Oleh Peretiatko photo" class="photo">
+
+        <!-- Contacts -->
+        <div class="contacts">
+            <h3 class="sidebar-title">Contacts</h3>
+            <p><span class="contact-type">C:</span> <a href="tel:+380970552421" class="contact-link">+380970552421</a></p>
+            <p><span class="contact-type">E:</span> <a href="mailto:peretyatko.oleh@gmail.com" class="contact-link">peretyatko.oleh@gmail.com</a></p>
+            <p><span class="contact-type">LinkedIn:</span> <a href="#" class="contact-link">www.linkedin.com/in/oleh-peretiatko-bb1762218</a></p>
+        </div>
+
+        <!-- Tech Skills -->
+        <div class="tech-skills">
+            <h3 class="sidebar-title">Tech Skills</h3>
+            <ul class="tech-skills-list">
+                <li><span class="tech-skills-text">HTML5 / CSS3</span></li>
+                <li><span class="tech-skills-text">Git / WebPack</span></li>
+                <li><span class="tech-skills-text">CRM Systems (Bitrix24, HubSpot)</span></li>
+                <li><span class="tech-skills-text">Basic SQL & Python</span></li>
+                <li><span class="tech-skills-text">MS Excel / Google Sheets</span></li>
+            </ul>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="soft-skills">
+            <h3 class="sidebar-title">Soft Skills</h3>
+            <ul class="soft-skills-list">
+                <li><span class="soft-skills-text">Teamwork & Communication</span></li>
+                <li><span class="soft-skills-text">Analytical Thinking</span></li>
+                <li><span class="soft-skills-text">Adaptability</span></li>
+                <li><span class="soft-skills-text">Attention to Detail</span></li>
+                <li><span class="soft-skills-text">Problem Solving</span></li>
+            </ul>
+        </div>
+    </aside>
+</div>
+</body>
+</html>
